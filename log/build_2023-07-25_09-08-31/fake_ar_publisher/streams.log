@@ -1,0 +1,9 @@
+[0.031s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12
+[0.082s] failed to create symbolic link '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher/ament_cmake_python/fake_ar_publisher/fake_ar_publisher' because existing path cannot be removed: Is a directory
+[0.083s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_fake_ar_publisher.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_fake_ar_publisher] Error 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_fake_ar_publisher.dir/all] Error 2
+[0.083s] gmake[1]: *** Waiting for unfinished jobs....
+[0.083s] [  3%] Built target fake_ar_publisher__cpp
+[0.087s] [ 12%] Built target fake_ar_publisher__rosidl_generator_c
+[0.087s] gmake: *** [Makefile:146: all] Error 2
+[0.096s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12

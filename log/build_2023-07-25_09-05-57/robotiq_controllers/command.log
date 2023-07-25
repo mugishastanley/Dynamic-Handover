@@ -1,0 +1,1 @@
+Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/robotiq_controllers

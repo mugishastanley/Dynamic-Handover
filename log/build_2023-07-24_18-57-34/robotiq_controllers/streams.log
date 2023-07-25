@@ -1,0 +1,3 @@
+[0.029s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_controllers -- -j12 -l12
+[0.092s] [100%] Built target robotiq_controllers
+[0.107s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_controllers -- -j12 -l12

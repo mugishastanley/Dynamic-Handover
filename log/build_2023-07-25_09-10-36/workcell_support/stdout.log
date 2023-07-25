@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found workcell_core: 0.0.0 (/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/workcell_support
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/initial_positions.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10e/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10e/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10e/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur10e/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur16e/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur16e/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur16e/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur16e/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3e/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3e/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3e/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur3e/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5e/default_kinematics.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5e/joint_limits.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5e/physical_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/config/ur5e/visual_parameters.yaml
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/inc/ur_common.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/inc/ur_transmissions.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/robotiq_2f_85_gripper.urdf.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/ur.ros2_control.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/ur.urdf.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/ur_macro.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/urdf/workcell.urdf.xacro
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/launch/urdf.launch.py
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/launch/workcell.launch.py
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/ament_index/resource_index/package_run_dependencies/workcell_support
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/ament_index/resource_index/parent_prefix_path/workcell_support
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/environment/ament_prefix_path.sh
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/environment/ament_prefix_path.dsv
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/environment/path.sh
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/environment/path.dsv
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/local_setup.bash
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/local_setup.sh
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/local_setup.zsh
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/local_setup.dsv
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/package.dsv
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/ament_index/resource_index/packages/workcell_support
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/cmake/workcell_supportConfig.cmake
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/cmake/workcell_supportConfig-version.cmake
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/workcell_support/share/workcell_support/package.xml

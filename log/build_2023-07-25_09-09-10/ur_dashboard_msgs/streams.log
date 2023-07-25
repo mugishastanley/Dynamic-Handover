@@ -1,0 +1,376 @@
+[0.047s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs -- -j12 -l12
+[0.115s] [  0%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[0.116s] [  0%] Built target ur_dashboard_msgs__cpp
+[0.135s] [ 12%] Built target ur_dashboard_msgs__rosidl_generator_c
+[0.211s] [ 35%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[0.212s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[0.213s] [ 48%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[0.218s] [ 60%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[0.230s] [ 72%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[0.244s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[0.255s] [ 84%] Built target ur_dashboard_msgs
+[0.266s] [ 85%] Built target ur_dashboard_msgs__py
+[0.308s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[0.323s] [ 97%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.336s] [ 98%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[0.350s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[0.653s] running egg_info
+[0.653s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[0.654s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[0.654s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[0.661s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[0.662s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[0.698s] [100%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[0.710s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs -- -j12 -l12
+[1.125s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs
+[1.158s] -- Install configuration: "Release"
+[1.159s] -- Execute custom install script
+[1.159s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[1.163s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[1.166s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[1.168s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[1.171s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[1.173s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[1.175s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[1.178s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[1.182s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[1.185s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[1.188s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[1.191s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[1.193s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[1.196s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[1.199s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[1.202s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[1.205s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.208s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[1.211s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[1.214s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[1.217s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[1.221s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[1.225s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[1.229s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[1.233s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[1.236s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[1.238s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[1.241s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[1.244s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[1.246s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[1.249s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[1.251s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[1.255s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[1.259s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[1.262s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[1.266s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[1.269s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[1.273s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[1.277s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[1.281s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[1.285s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[1.289s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[1.293s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[1.297s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[1.301s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[1.304s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[1.307s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[1.310s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[1.313s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[1.316s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[1.319s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[1.321s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[1.324s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[1.327s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[1.329s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[1.332s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[1.335s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[1.337s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[1.340s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[1.343s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[1.347s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[1.350s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[1.352s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[1.355s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[1.357s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.360s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[1.363s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[1.365s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[1.368s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[1.370s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[1.373s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[1.375s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[1.378s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[1.381s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[1.383s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[1.386s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[1.389s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[1.391s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[1.394s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[1.396s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.399s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[1.401s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[1.404s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[1.407s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[1.409s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[1.412s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[1.414s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[1.417s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[1.419s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[1.422s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[1.426s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[1.429s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[1.431s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[1.434s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[1.437s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[1.439s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[1.442s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[1.445s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[1.449s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[1.451s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[1.454s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[1.456s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[1.459s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[1.461s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[1.463s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[1.465s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[1.468s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[1.471s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[1.474s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[1.477s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[1.480s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[1.483s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[1.486s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[1.489s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[1.493s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[1.497s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[1.500s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[1.503s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[1.505s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[1.508s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[1.511s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[1.514s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[1.517s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[1.520s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[1.523s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[1.525s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[1.528s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[1.531s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[1.533s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[1.536s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[1.538s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[1.540s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[1.542s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[1.545s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[1.547s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[1.549s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[1.552s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[1.554s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[1.556s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[1.559s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[1.561s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[1.564s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[1.566s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[1.568s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[1.571s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[1.574s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[1.577s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.580s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.583s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.585s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.588s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.590s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[1.592s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[1.595s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.597s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.599s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.602s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[1.604s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[1.606s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[1.609s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[1.611s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[1.615s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.617s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[1.619s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.622s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.624s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[1.627s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[1.629s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[1.631s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.634s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.636s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[1.639s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[1.641s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[1.644s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[1.646s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[1.648s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[1.651s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[1.654s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/PKG-INFO
+[1.656s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/SOURCES.txt
+[1.658s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/dependency_links.txt
+[1.661s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.2.6-py3.10.egg-info/top_level.txt
+[1.664s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[1.666s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[1.668s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.670s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.673s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[1.675s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[1.678s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[1.680s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[1.682s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[1.685s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[1.687s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[1.690s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[1.692s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[1.694s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[1.697s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[1.699s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[1.701s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[1.704s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[1.706s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[1.709s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[1.711s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[1.714s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[1.716s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[1.719s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[1.721s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[1.723s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[1.726s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[1.728s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[1.730s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[1.733s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[1.735s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[1.738s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[1.741s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[1.743s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[1.746s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[1.748s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[1.751s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.753s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.756s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.763s] -- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.764s] -- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.764s] -- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.764s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[1.767s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[1.769s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[1.771s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[1.773s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[1.775s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[1.778s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[1.780s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[1.782s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[1.785s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[1.787s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[1.790s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[1.793s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[1.795s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[1.798s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[1.800s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[1.803s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[1.805s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[1.808s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[1.811s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[1.814s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[1.816s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[1.818s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[1.822s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[1.825s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[1.827s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[1.830s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[1.832s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[1.834s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[1.837s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[1.840s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[1.843s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[1.845s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[1.847s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[1.849s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[1.852s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[1.854s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[1.856s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[1.858s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[1.861s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[1.863s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[1.865s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[1.868s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[1.870s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[1.873s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[1.875s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[1.878s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[1.881s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[1.884s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[1.886s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[1.889s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[1.891s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[1.894s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[1.896s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[1.898s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[1.901s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[1.903s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[1.905s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[1.908s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[1.910s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[1.913s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[1.916s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.918s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.921s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.923s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.926s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.929s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.932s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[1.934s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[1.936s] -- Symlinking: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[1.939s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[1.940s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[1.940s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[1.941s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.941s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[1.942s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.943s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[1.943s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[1.943s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.944s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.945s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[1.945s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.945s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[1.946s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[2.008s] Listing '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[2.008s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[2.008s] Listing '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[2.008s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[2.009s] Listing '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[2.009s] Listing '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[2.009s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[2.010s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[2.011s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[2.013s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[2.014s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[2.014s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[2.014s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-release.cmake
+[2.014s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.014s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.014s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.015s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[2.015s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[2.015s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-release.cmake
+[2.015s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[2.015s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.016s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.016s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.016s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.016s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[2.016s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-release.cmake
+[2.017s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[2.017s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-release.cmake
+[2.027s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs

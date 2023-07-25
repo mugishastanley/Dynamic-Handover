@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/test_mediapipe/test_mediapipe.egg-info
+writing ../../build/test_mediapipe/test_mediapipe.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_mediapipe/test_mediapipe.egg-info/dependency_links.txt
+writing entry points to ../../build/test_mediapipe/test_mediapipe.egg-info/entry_points.txt
+writing requirements to ../../build/test_mediapipe/test_mediapipe.egg-info/requires.txt
+writing top-level names to ../../build/test_mediapipe/test_mediapipe.egg-info/top_level.txt
+writing manifest file '../../build/test_mediapipe/test_mediapipe.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_mediapipe/test_mediapipe.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_mediapipe/test_mediapipe.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build
+creating /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib
+creating /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+copying test_mediapipe/pose_detetcor.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+copying test_mediapipe/__init__.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+copying test_mediapipe/face_mesh_detector.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+copying test_mediapipe/holistic_detector.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+copying test_mediapipe/hands_detector.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/pose_detetcor.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/__init__.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/face_mesh_detector.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/holistic_detector.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/hands_detector.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/pose_detetcor.py to pose_detetcor.cpython-310.pyc
+byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/face_mesh_detector.py to face_mesh_detector.cpython-310.pyc
+byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/holistic_detector.py to holistic_detector.cpython-310.pyc
+byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/hands_detector.py to hands_detector.cpython-310.pyc
+running install_data
+creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index
+creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index/resource_index
+creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index/resource_index/packages
+copying resource/test_mediapipe -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index/resource_index/packages
+copying package.xml -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/test_mediapipe
+running install_egg_info
+Copying ../../build/test_mediapipe/test_mediapipe.egg-info to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe-0.0.0-py3.10.egg-info
+running install_scripts
+Installing facemesh_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+Installing hands_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+Installing holistic_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+Installing pose_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+writing list of installed files to '/home/stan/workspace/ws_ur_hv/build/test_mediapipe/install.log'

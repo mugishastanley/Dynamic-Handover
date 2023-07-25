@@ -1,0 +1,51 @@
+[0.801s] Invoking command in '/home/stan/workspace/ws_ur_hv/src/test_mediapipe': PYTHONPATH=/home/stan/workspace/ws_ur_hv/build/test_mediapipe/prefix_override:/home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_mediapipe build --build-base /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build install --record /home/stan/workspace/ws_ur_hv/build/test_mediapipe/install.log --single-version-externally-managed
+[1.084s] running egg_info
+[1.085s] creating ../../build/test_mediapipe/test_mediapipe.egg-info
+[1.085s] writing ../../build/test_mediapipe/test_mediapipe.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/test_mediapipe/test_mediapipe.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../build/test_mediapipe/test_mediapipe.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/test_mediapipe/test_mediapipe.egg-info/requires.txt
+[1.086s] writing top-level names to ../../build/test_mediapipe/test_mediapipe.egg-info/top_level.txt
+[1.086s] writing manifest file '../../build/test_mediapipe/test_mediapipe.egg-info/SOURCES.txt'
+[1.087s] reading manifest file '../../build/test_mediapipe/test_mediapipe.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/test_mediapipe/test_mediapipe.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.089s] creating /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build
+[1.089s] creating /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib
+[1.089s] creating /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+[1.089s] copying test_mediapipe/pose_detetcor.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+[1.089s] copying test_mediapipe/__init__.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+[1.089s] copying test_mediapipe/face_mesh_detector.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+[1.090s] copying test_mediapipe/holistic_detector.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+[1.090s] copying test_mediapipe/hands_detector.py -> /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe
+[1.090s] running install
+[1.090s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.090s]   warnings.warn(
+[1.090s] running install_lib
+[1.091s] creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+[1.091s] copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/pose_detetcor.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+[1.091s] copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/__init__.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+[1.091s] copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/face_mesh_detector.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+[1.091s] copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/holistic_detector.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+[1.091s] copying /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build/lib/test_mediapipe/hands_detector.py -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe
+[1.092s] byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/pose_detetcor.py to pose_detetcor.cpython-310.pyc
+[1.092s] byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/__init__.py to __init__.cpython-310.pyc
+[1.092s] byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/face_mesh_detector.py to face_mesh_detector.cpython-310.pyc
+[1.093s] byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/holistic_detector.py to holistic_detector.cpython-310.pyc
+[1.094s] byte-compiling /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe/hands_detector.py to hands_detector.cpython-310.pyc
+[1.094s] running install_data
+[1.095s] creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index
+[1.095s] creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index/resource_index
+[1.095s] creating /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index/resource_index/packages
+[1.095s] copying resource/test_mediapipe -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/ament_index/resource_index/packages
+[1.096s] copying package.xml -> /home/stan/workspace/ws_ur_hv/install/test_mediapipe/share/test_mediapipe
+[1.096s] running install_egg_info
+[1.097s] Copying ../../build/test_mediapipe/test_mediapipe.egg-info to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages/test_mediapipe-0.0.0-py3.10.egg-info
+[1.097s] running install_scripts
+[1.118s] Installing facemesh_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+[1.119s] Installing hands_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+[1.119s] Installing holistic_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+[1.119s] Installing pose_demo script to /home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/test_mediapipe
+[1.119s] writing list of installed files to '/home/stan/workspace/ws_ur_hv/build/test_mediapipe/install.log'
+[1.142s] Invoked command in '/home/stan/workspace/ws_ur_hv/src/test_mediapipe' returned '0': PYTHONPATH=/home/stan/workspace/ws_ur_hv/build/test_mediapipe/prefix_override:/home/stan/workspace/ws_ur_hv/install/test_mediapipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_mediapipe build --build-base /home/stan/workspace/ws_ur_hv/build/test_mediapipe/build install --record /home/stan/workspace/ws_ur_hv/build/test_mediapipe/install.log --single-version-externally-managed

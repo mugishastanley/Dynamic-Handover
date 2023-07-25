@@ -1,0 +1,96 @@
+[0.015s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/lib:/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/hello_moveit_ur -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/hello_moveit_ur
+[0.102s] -- The C compiler identification is GNU 11.3.0
+[0.166s] -- The CXX compiler identification is GNU 11.3.0
+[0.178s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.943s] -- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.073s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.148s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.155s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.167s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.328s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.347s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.459s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.462s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.577s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.610s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.680s] -- Found Threads: TRUE  
+[2.925s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.119s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.119s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.770s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.358s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.636s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.123s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.214s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.214s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/stan/workspace/ws_ur_hv/src/hello_moveit_ur/include>
+[5.214s] -- Configured cppcheck exclude dirs and/or files: 
+[5.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.216s] -- Added test 'lint_cmake' to check CMake code style
+[5.216s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.217s] -- Added test 'uncrustify' to check C / C++ code style
+[5.218s] -- Configured uncrustify additional arguments: 
+[5.218s] -- Added test 'xmllint' to check XML markup files
+[5.220s] -- Configuring done (5.2s)
+[5.280s] -- Generating done (0.0s)
+[5.283s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/hello_moveit_ur
+[5.303s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/lib:/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/hello_moveit_ur -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/hello_moveit_ur
+[5.306s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/lib:/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/hello_moveit_ur -- -j12 -l12
+[5.362s] [ 16%] [32mBuilding CXX object CMakeFiles/hello_moveit_ur.dir/src/hello_moveit_ur.cpp.o[0m
+[5.363s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_eval.dir/src/moveit_eval.cpp.o[0m
+[5.363s] [ 50%] [32mBuilding CXX object CMakeFiles/point_to_point.dir/src/point_to_point.cpp.o[0m
+[10.481s] [01m[K/home/stan/workspace/ws_ur_hv/src/hello_moveit_ur/src/point_to_point.cpp:80:31:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[10.481s]    80 | void moveRobotArmThroughPoses([01;35m[Kauto[m[K const &node, const std::vector<geometry_msgs::msg::Pose>& target_poses)
+[10.482s]       |                               [01;35m[K^~~~[m[K
+[10.484s] [01m[K/home/stan/workspace/ws_ur_hv/src/hello_moveit_ur/src/moveit_eval.cpp:6:31:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[10.484s]     6 | void moveRobotArmThroughPoses([01;35m[Kauto[m[K const &node, const std::vector<geometry_msgs::msg::Pose>& target_poses)
+[10.484s]       |                               [01;35m[K^~~~[m[K
+[13.976s] [ 66%] [32m[1mLinking CXX executable moveit_eval[0m
+[14.233s] [ 83%] [32m[1mLinking CXX executable hello_moveit_ur[0m
+[14.251s] [ 83%] Built target moveit_eval
+[14.503s] [ 83%] Built target hello_moveit_ur
+[20.792s] [100%] [32m[1mLinking CXX executable point_to_point[0m
+[21.096s] [100%] Built target point_to_point
+[21.105s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/lib:/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/hello_moveit_ur -- -j12 -l12
+[21.167s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/lib:/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/hello_moveit_ur
+[21.196s] -- Install configuration: "Release"
+[21.196s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/lib/hello_moveit_ur/hello_moveit_ur
+[21.196s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/lib/hello_moveit_ur/hello_moveit_ur" to ""
+[21.197s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/lib/hello_moveit_ur/point_to_point
+[21.198s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/lib/hello_moveit_ur/point_to_point" to ""
+[21.198s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/lib/hello_moveit_ur/moveit_eval
+[21.198s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/lib/hello_moveit_ur/moveit_eval" to ""
+[21.198s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur//launch
+[21.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur//launch/moveit_eval_launch.py
+[21.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur//launch/moveit_commons.py
+[21.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur//launch/hello_point_to_point.launch.py
+[21.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur//launch/hello_moveit_ur_launch.py
+[21.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/ament_index/resource_index/package_run_dependencies/hello_moveit_ur
+[21.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/ament_index/resource_index/parent_prefix_path/hello_moveit_ur
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/environment/ament_prefix_path.sh
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/environment/ament_prefix_path.dsv
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/environment/path.sh
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/environment/path.dsv
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/local_setup.bash
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/local_setup.sh
+[21.200s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/local_setup.zsh
+[21.201s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/local_setup.dsv
+[21.201s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/package.dsv
+[21.201s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/ament_index/resource_index/packages/hello_moveit_ur
+[21.201s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/cmake/hello_moveit_urConfig.cmake
+[21.201s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/cmake/hello_moveit_urConfig-version.cmake
+[21.201s] -- Installing: /home/stan/workspace/ws_ur_hv/install/hello_moveit_ur/share/hello_moveit_ur/package.xml
+[21.209s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver:/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/lib:/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/hello_moveit_ur

@@ -1,0 +1,33 @@
+[0.039s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[0.104s] [  3%] Built target workcell_core__cpp
+[0.105s] [ 12%] Built target workcell_core__rosidl_generator_c
+[0.145s] [ 12%] Built target ament_cmake_python_copy_workcell_core
+[0.149s] [ 21%] Built target workcell_core__rosidl_typesupport_introspection_cpp
+[0.152s] [ 30%] Built target workcell_core__rosidl_typesupport_c
+[0.156s] [ 39%] Built target workcell_core__rosidl_typesupport_introspection_c
+[0.158s] [ 48%] Built target workcell_core__rosidl_typesupport_cpp
+[0.158s] [ 57%] Built target workcell_core__rosidl_typesupport_fastrtps_c
+[0.159s] [ 66%] Built target workcell_core__rosidl_typesupport_fastrtps_cpp
+[0.175s] [ 66%] Built target workcell_core
+[0.196s] [ 69%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[0.196s] [ 72%] Built target workcell_core__py
+[0.213s] [ 78%] Built target workcell_core__rosidl_generator_py
+[0.242s] [ 90%] Built target workcell_core__rosidl_typesupport_introspection_c__pyext
+[0.242s] [ 90%] Built target workcell_core__rosidl_typesupport_fastrtps_c__pyext
+[0.249s] [ 96%] Built target workcell_core__rosidl_typesupport_c__pyext
+[0.625s] [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kfake_ar_publisher/msg/ar_marker.hpp: No such file or directory
+[0.625s]     8 | #include [01;31m[K<fake_ar_publisher/msg/ar_marker.hpp>[m[K
+[0.625s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.625s] compilation terminated.
+[0.627s] gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+[0.627s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/vision_node.dir/all] Error 2
+[0.627s] gmake[1]: *** Waiting for unfinished jobs....
+[0.636s] running egg_info
+[0.637s] writing workcell_core.egg-info/PKG-INFO
+[0.637s] writing dependency_links to workcell_core.egg-info/dependency_links.txt
+[0.637s] writing top-level names to workcell_core.egg-info/top_level.txt
+[0.643s] reading manifest file 'workcell_core.egg-info/SOURCES.txt'
+[0.644s] writing manifest file 'workcell_core.egg-info/SOURCES.txt'
+[0.689s] [ 96%] Built target ament_cmake_python_build_workcell_core_egg
+[0.690s] gmake: *** [Makefile:146: all] Error 2
+[0.700s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12

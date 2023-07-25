@@ -1,0 +1,248 @@
+[0.033s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/fake_ar_publisher -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher
+[0.121s] -- The C compiler identification is GNU 11.3.0
+[0.200s] -- The CXX compiler identification is GNU 11.3.0
+[0.212s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.336s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.336s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.488s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.918s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.029s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.100s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.108s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.119s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.280s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.283s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.431s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.500s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.561s] -- Found Threads: TRUE  
+[1.787s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.846s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.119s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.447s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.016s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.019s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.055s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.055s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.055s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.079s] -- Found PythonExtra: .so  
+[3.184s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[3.184s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[3.184s]   rosidl_target_interfaces()
+[3.185s] Call Stack (most recent call first):
+[3.185s]   CMakeLists.txt:38 (rosidl_target_interfaces)
+[3.185s] 
+[3.185s] [0m
+[3.187s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.195s] -- Configuring done (3.1s)
+[3.248s] -- Generating done (0.0s)
+[3.252s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher
+[3.271s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/fake_ar_publisher -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher
+[3.273s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12
+[3.321s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.324s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.327s] [  6%] Built target ament_cmake_python_copy_fake_ar_publisher
+[3.576s] [  9%] [32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_generator_c.dir/rosidl_generator_c/fake_ar_publisher/msg/detail/ar_marker__functions.c.o[0m
+[3.579s] [  9%] Built target fake_ar_publisher__cpp
+[3.583s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.584s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.585s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.631s] running egg_info
+[3.632s] creating fake_ar_publisher.egg-info
+[3.632s] writing fake_ar_publisher.egg-info/PKG-INFO
+[3.633s] writing dependency_links to fake_ar_publisher.egg-info/dependency_links.txt
+[3.633s] writing top-level names to fake_ar_publisher.egg-info/top_level.txt
+[3.633s] writing manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'
+[3.637s] reading manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'
+[3.638s] writing manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'
+[3.670s] [ 18%] Built target ament_cmake_python_build_fake_ar_publisher_egg
+[3.671s] [ 21%] [32m[1mLinking C shared library libfake_ar_publisher__rosidl_generator_c.so[0m
+[3.695s] [ 21%] Built target fake_ar_publisher__rosidl_generator_c
+[3.699s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.699s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.700s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.817s] [ 33%] [32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fake_ar_publisher/msg/ar_marker__type_support.cpp.o[0m
+[4.000s] [ 36%] [32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fake_ar_publisher/msg/detail/ar_marker__type_support_c.cpp.o[0m
+[4.001s] [ 39%] [32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fake_ar_publisher/msg/detail/ar_marker__type_support.cpp.o[0m
+[4.012s] [ 42%] [32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fake_ar_publisher/msg/detail/dds_fastrtps/ar_marker__type_support.cpp.o[0m
+[4.093s] [ 45%] [32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/fake_ar_publisher/msg/ar_marker__type_support.cpp.o[0m
+[4.116s] [ 48%] [32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fake_ar_publisher/msg/detail/ar_marker__type_support.c.o[0m
+[4.137s] [ 51%] [32m[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_c.so[0m
+[4.145s] [ 54%] [32m[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_cpp.so[0m
+[4.163s] [ 57%] [32m[1mLinking C shared library libfake_ar_publisher__rosidl_typesupport_introspection_c.so[0m
+[4.176s] [ 57%] Built target fake_ar_publisher__rosidl_typesupport_cpp
+[4.177s] [ 57%] Built target fake_ar_publisher__rosidl_typesupport_c
+[4.191s] [ 57%] Built target fake_ar_publisher__rosidl_typesupport_introspection_c
+[4.436s] [ 60%] [32m[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so[0m
+[4.535s] [ 60%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_c
+[4.563s] [ 63%] [32m[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.577s] [ 66%] [32m[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so[0m
+[4.638s] [ 66%] Built target fake_ar_publisher__rosidl_typesupport_introspection_cpp
+[4.676s] [ 66%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_cpp
+[4.684s] [ 66%] Built target fake_ar_publisher
+[4.693s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.694s] [ 72%] [32mBuilding CXX object CMakeFiles/fake_ar_publisher_node.dir/src/fake_ar_publisher.cpp.o[0m
+[5.030s] [ 72%] Built target fake_ar_publisher__py
+[5.040s] [ 75%] [32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_generator_py.dir/rosidl_generator_py/fake_ar_publisher/msg/_ar_marker_s.c.o[0m
+[5.170s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/libfake_ar_publisher__rosidl_generator_py.so[0m
+[5.206s] [ 78%] Built target fake_ar_publisher__rosidl_generator_py
+[5.219s] [ 87%] [32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.220s] [ 87%] [32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_c.c.o[0m
+[5.220s] [ 87%] [32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.344s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.370s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.389s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.390s] [ 96%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_c__pyext
+[5.400s] [ 96%] Built target fake_ar_publisher__rosidl_typesupport_introspection_c__pyext
+[5.419s] [ 96%] Built target fake_ar_publisher__rosidl_typesupport_c__pyext
+[14.872s] [100%] [32m[1mLinking CXX executable fake_ar_publisher_node[0m
+[15.013s] [100%] Built target fake_ar_publisher_node
+[15.024s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12
+[15.111s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher
+[15.142s] -- Install configuration: "Release"
+[15.144s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/ament_index/resource_index/rosidl_interfaces/fake_ar_publisher
+[15.145s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher
+[15.145s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg
+[15.145s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail
+[15.145s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.h
+[15.145s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__functions.h
+[15.145s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__functions.c
+[15.145s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__struct.h
+[15.145s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/ar_marker.h
+[15.146s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_generator_c__visibility_control.h
+[15.146s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/library_path.sh
+[15.146s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/library_path.dsv
+[15.147s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_c.so
+[15.148s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_c.so" to ""
+[15.148s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher
+[15.148s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg
+[15.148s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail
+[15.148s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_fastrtps_c.h
+[15.148s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.149s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so
+[15.149s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so" to ""
+[15.150s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher
+[15.150s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg
+[15.150s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail
+[15.150s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__struct.hpp
+[15.150s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__builder.hpp
+[15.150s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__traits.hpp
+[15.150s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/ar_marker.hpp
+[15.150s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher
+[15.151s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg
+[15.151s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail
+[15.151s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/dds_fastrtps
+[15.151s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[15.151s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.152s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so
+[15.153s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.153s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher
+[15.153s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg
+[15.153s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.153s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail
+[15.153s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.c
+[15.154s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_introspection_c.h
+[15.155s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_c.so
+[15.156s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_c.so" to ""
+[15.156s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_c.so
+[15.156s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_c.so" to ""
+[15.156s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher
+[15.156s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg
+[15.157s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail
+[15.157s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.cpp
+[15.157s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_introspection_cpp.hpp
+[15.158s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so
+[15.158s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so" to ""
+[15.159s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_cpp.so
+[15.159s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_cpp.so" to ""
+[15.159s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/pythonpath.sh
+[15.160s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/pythonpath.dsv
+[15.160s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info
+[15.160s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/PKG-INFO
+[15.160s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/top_level.txt
+[15.161s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.161s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.161s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher
+[15.161s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.162s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/__init__.py
+[15.162s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.162s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_introspection_c.c
+[15.162s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.162s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_c.c
+[15.163s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg
+[15.163s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker.py
+[15.163s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/__init__.py
+[15.163s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker_s.c
+[15.164s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.164s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/libfake_ar_publisher__rosidl_generator_py.so
+[15.205s] Listing '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher'...
+[15.205s] Compiling '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/__init__.py'...
+[15.205s] Listing '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg'...
+[15.205s] Compiling '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/__init__.py'...
+[15.206s] Compiling '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker.py'...
+[15.211s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.211s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.211s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.212s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.212s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.212s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.213s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_py.so
+[15.213s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_py.so" to ""
+[15.213s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/msg/ARMarker.idl
+[15.213s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/msg/ARMarker.msg
+[15.214s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/fake_ar_publisher/fake_ar_publisher_node
+[15.216s] -- Set runtime path of "/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/fake_ar_publisher/fake_ar_publisher_node" to ""
+[15.216s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/ament_index/resource_index/package_run_dependencies/fake_ar_publisher
+[15.216s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/ament_index/resource_index/parent_prefix_path/fake_ar_publisher
+[15.216s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/ament_prefix_path.sh
+[15.217s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/ament_prefix_path.dsv
+[15.217s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/path.sh
+[15.217s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/environment/path.dsv
+[15.217s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.bash
+[15.217s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.sh
+[15.218s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.zsh
+[15.218s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.dsv
+[15.218s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv
+[15.218s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/ament_index/resource_index/packages/fake_ar_publisher
+[15.220s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cExport.cmake
+[15.220s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cExport-release.cmake
+[15.220s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cExport.cmake
+[15.221s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cExport-release.cmake
+[15.221s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cppExport.cmake
+[15.222s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.222s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[15.223s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cExport.cmake
+[15.223s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cExport-release.cmake
+[15.223s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cExport.cmake
+[15.224s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cExport-release.cmake
+[15.224s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cppExport.cmake
+[15.224s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cppExport-release.cmake
+[15.225s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cppExport.cmake
+[15.225s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cppExport-release.cmake
+[15.227s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_pyExport.cmake
+[15.227s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_pyExport-release.cmake
+[15.227s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake-extras.cmake
+[15.228s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.228s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.228s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[15.228s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_targets-extras.cmake
+[15.229s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.229s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.229s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisherConfig.cmake
+[15.230s] -- Installing: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisherConfig-version.cmake
+[15.230s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.xml
+[15.241s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher

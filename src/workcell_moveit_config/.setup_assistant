@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: workcell_support
+    relative_path: urdf/workcell.urdf.xacro
+  srdf:
+    relative_path: config/myworkcell.srdf
+  package_settings:
+    author_name: stanley
+    author_email: smugisha@ut.ee
+    generated_timestamp: 1690208456
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -1,0 +1,53 @@
+[0.034s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/fake_ar_publisher -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher
+[0.157s] -- The C compiler identification is GNU 11.3.0
+[0.246s] -- The CXX compiler identification is GNU 11.3.0
+[0.263s] -- Detecting C compiler ABI info
+[0.387s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.481s] -- Detecting CXX compiler ABI info - done
+[0.500s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.501s] -- Detecting CXX compile features
+[0.509s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.971s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.110s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.206s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.217s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.237s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.489s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.494s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.684s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.752s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.830s] -- Found Threads: TRUE  
+[2.170s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.237s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.532s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.869s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.411s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.413s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.447s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.447s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.447s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.476s] -- Found PythonExtra: .so  
+[3.574s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[3.575s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[3.575s]   rosidl_target_interfaces()
+[3.575s] Call Stack (most recent call first):
+[3.575s]   CMakeLists.txt:38 (rosidl_target_interfaces)
+[3.575s] 
+[3.576s] [0m
+[3.576s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.584s] -- Configuring done (3.5s)
+[3.636s] -- Generating done (0.0s)
+[3.640s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher

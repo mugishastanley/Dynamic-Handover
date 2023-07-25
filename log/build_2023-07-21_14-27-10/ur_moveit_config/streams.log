@@ -1,0 +1,76 @@
+[0.007s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/ur_moveit_config
+[0.078s] -- The C compiler identification is GNU 11.3.0
+[0.152s] -- The CXX compiler identification is GNU 11.3.0
+[0.168s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.435s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.210s] -- Configuring done (1.2s)
+[1.221s] -- Generating done (0.0s)
+[1.224s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/ur_moveit_config
+[1.238s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/ur_moveit_config
+[1.242s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_moveit_config -- -j12 -l12
+[1.295s] Built target ament_cmake_python_copy_ur_moveit_config
+[1.569s] running egg_info
+[1.570s] creating ur_moveit_config.egg-info
+[1.570s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.570s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.570s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.570s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.573s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.573s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.593s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.601s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_moveit_config -- -j12 -l12
+[1.656s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_moveit_config
+[1.685s] -- Install configuration: "Release"
+[1.685s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/config
+[1.685s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.685s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/launch
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/rviz
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.686s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/srdf
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/PKG-INFO
+[1.687s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/top_level.txt
+[1.688s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/dependency_links.txt
+[1.688s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.6-py3.10.egg-info/SOURCES.txt
+[1.688s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[1.688s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.688s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.725s] Listing '/home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.726s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.726s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.730s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.770s] Compiling '/home/stan/workspace/ws_ur_hv/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.775s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.775s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.775s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.776s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.776s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.776s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.776s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.776s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.777s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.777s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.777s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.777s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.777s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.778s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.778s] -- Installing: /home/stan/workspace/ws_ur_hv/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.790s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_moveit_config

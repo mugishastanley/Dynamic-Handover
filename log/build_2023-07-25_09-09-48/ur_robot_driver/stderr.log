@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/stan/workspace/ws_ur_hv/build/ur_robot_driver/ament_cmake_python/ur_robot_driver/ur_robot_driver' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ur_robot_driver.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ur_robot_driver] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:250: CMakeFiles/ament_cmake_python_symlink_ur_robot_driver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

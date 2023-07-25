@@ -1,0 +1,37 @@
+[ 66%] Built target robotiq_driver
+[100%] Built target gripper_interface_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver//hardware_interface_plugin.xml
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/robotiq_driver/gripper_interface_test
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/crc.hpp
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/hardware_interface.hpp
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/robotiq_gripper_interface.hpp
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/visibility_control.h
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/config/robotiq_controllers.yaml
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/launch/robotiq_control.launch.py
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/library_path.sh
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/library_path.dsv
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/package_run_dependencies/robotiq_driver
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/parent_prefix_path/robotiq_driver
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/path.sh
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/path.dsv
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.bash
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.sh
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.zsh
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.dsv
+-- Symlinking: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.dsv
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/packages/robotiq_driver
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robotiq_driver
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig.cmake
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig-version.cmake
+-- Up-to-date symlink: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.xml
+-- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/librobotiq_driver.so
+-- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/export_robotiq_driverExport.cmake
+-- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/export_robotiq_driverExport-release.cmake

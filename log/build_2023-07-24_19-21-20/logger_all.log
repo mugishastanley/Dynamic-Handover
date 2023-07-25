@@ -1,0 +1,844 @@
+[0.451s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.451s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f21d41239a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f21d4a85570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f21d4a85570>>, mixin_verb=('build',))
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.480s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/stan/workspace/ws_ur_hv'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.501s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_ar_publisher' with type 'ros.ament_cmake' and name 'fake_ar_publisher'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit_ur) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_moveit_ur' with type 'ros.ament_cmake' and name 'hello_moveit_ur'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes) by extension 'python_setup_py'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/human) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'ros'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extensions ['cmake', 'python']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/nodes/vision) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ros'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['cmake', 'python']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'cmake'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'python'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['python_setup_py']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'python_setup_py'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ros'
+[0.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_controllers' with type 'ros.ament_cmake' and name 'robotiq_controllers'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ros'
+[0.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_driver' with type 'ros.ament_cmake' and name 'robotiq_driver'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'ros'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extensions ['cmake', 'python']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'cmake'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'python'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extensions ['python_setup_py']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/tasks) by extension 'python_setup_py'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_core) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/workcell_core' with type 'ros.ament_cmake' and name 'workcell_core'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_moveit_config) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'src/workcell_moveit_config' with type 'ros.ament_cmake' and name 'workcell_moveit_config'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/workcell_support) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/workcell_support' with type 'ros.ament_cmake' and name 'workcell_support'
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.560s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/humble
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'fake_ar_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/fake_ar_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/robotiq_description', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_description', 'symlink_install': False, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.651s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/serial', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/serial', 'symlink_install': False, 'test_result_base': None}
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.652s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_description', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'cmake_target' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'workcell_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] DEBUG:colcon.colcon_core.verb:Building package 'workcell_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/workcell_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/workcell_core', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/workcell_core', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/robotiq_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/robotiq_driver', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver', 'symlink_install': False, 'test_result_base': None}
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_controllers', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_moveit_config', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'cmake_target' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'workcell_support' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'workcell_support' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/workcell_support', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/workcell_support', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/workcell_support', 'symlink_install': False, 'test_result_base': None}
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.662s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_bringup', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.663s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_robot_driver', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'workcell_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] DEBUG:colcon.colcon_core.verb:Building package 'workcell_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/workcell_moveit_config', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/workcell_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit_ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'hello_moveit_ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/hello_moveit_ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/hello_moveit_ur', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/hello_moveit_ur', 'symlink_install': False, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.667s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur_calibration', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.668s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stan/workspace/ws_ur_hv/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stan/workspace/ws_ur_hv/install/ur', 'merge_install': False, 'path': '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': False, 'test_result_base': None}
+[0.669s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.673s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.673s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.685s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Description'
+[0.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.690s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/workcell_core' with build type 'ament_cmake'
+[0.691s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/workcell_core'
+[0.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.696s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/serial' with build type 'ament_cmake'
+[0.696s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/serial'
+[0.697s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/fake_ar_publisher' with build type 'ament_cmake'
+[0.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/fake_ar_publisher'
+[0.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_controllers' with build type 'ament_cmake'
+[0.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_controllers'
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.712s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_description' with build type 'ament_cmake'
+[0.713s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_description'
+[0.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs -- -j12 -l12
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_description -- -j12 -l12
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_core -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_core
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/serial -- -j12 -l12
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_controllers -- -j12 -l12
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_description -- -j12 -l12
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_description -- -j12 -l12
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/serial -- -j12 -l12
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_description -- -j12 -l12
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_controllers -- -j12 -l12
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_description
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_description
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/serial
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_controllers
+[0.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description' for CMake module files
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_description
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/bin'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/lib/python3.10/site-packages'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/bin'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.sh'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.bash'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description' for CMake module files
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_description
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description' for CMake config files
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/bin'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/lib/python3.10/site-packages'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/bin'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.dsv'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.sh'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.bash'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.zsh'
+[1.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/ur_description/share/colcon-core/packages/ur_description)
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_controllers)
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers' for CMake module files
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_controllers
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers' for CMake config files
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_controllers', 'cmake_prefix_path')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/cmake_prefix_path.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/cmake_prefix_path.sh'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/lib'
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_controllers', 'ld_library_path_lib')
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/ld_library_path_lib.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/ld_library_path_lib.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/ld_library_path_lib.sh'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/bin'
+[1.058s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/lib/pkgconfig/robotiq_controllers.pc'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/lib/python3.10/site-packages'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/bin'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.dsv'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.sh'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.bash'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.zsh'
+[1.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/colcon-core/packages/robotiq_controllers)
+[1.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial' for CMake module files
+[1.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/serial
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial' for CMake config files
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/lib'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/bin'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/lib/pkgconfig/serial.pc'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/lib/python3.10/site-packages'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.zsh'
+[1.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/serial/share/colcon-core/packages/serial)
+[1.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description' for CMake config files
+[1.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/bin'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/lib/python3.10/site-packages'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_description/bin'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.sh'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.bash'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/robotiq_description/package.zsh'
+[1.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description' for CMake module files
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description' for CMake config files
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/bin'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/lib/python3.10/site-packages'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_description/bin'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.bash'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_description/share/ur_description/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/ur_description/share/colcon-core/packages/ur_description)
+[1.131s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[1.131s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[1.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_controllers)
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers' for CMake module files
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers' for CMake config files
+[1.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_controllers', 'cmake_prefix_path')
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/cmake_prefix_path.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/cmake_prefix_path.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/cmake_prefix_path.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/lib'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_controllers', 'ld_library_path_lib')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/ld_library_path_lib.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/ld_library_path_lib.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/hook/ld_library_path_lib.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/bin'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/lib/pkgconfig/robotiq_controllers.pc'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/lib/python3.10/site-packages'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/bin'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.sh'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.bash'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/robotiq_controllers/package.zsh'
+[1.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/robotiq_controllers/share/colcon-core/packages/robotiq_controllers)
+[1.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/lib'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/bin'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/lib/pkgconfig/serial.pc'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/lib/python3.10/site-packages'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/serial/bin'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.sh'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/serial/share/serial/package.zsh'
+[1.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/serial/share/colcon-core/packages/serial)
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_moveit_config -- -j12 -l12
+[1.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver' with build type 'ament_cmake'
+[1.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver'
+[1.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_driver -- -j12 -l12
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_driver -- -j12 -l12
+[1.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs -- -j12 -l12
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_driver
+[1.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_driver)
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver' for CMake module files
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_driver
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver' for CMake config files
+[1.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_driver', 'cmake_prefix_path')
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/cmake_prefix_path.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/cmake_prefix_path.sh'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib'
+[1.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_driver', 'ld_library_path_lib')
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/ld_library_path_lib.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/ld_library_path_lib.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/ld_library_path_lib.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/bin'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/pkgconfig/robotiq_driver.pc'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/python3.10/site-packages'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/bin'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.sh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.bash'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.zsh'
+[1.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/colcon-core/packages/robotiq_driver)
+[1.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher
+[1.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_driver)
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver' for CMake module files
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver' for CMake config files
+[1.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_driver', 'cmake_prefix_path')
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/cmake_prefix_path.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/cmake_prefix_path.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/cmake_prefix_path.sh'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib'
+[1.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_driver', 'ld_library_path_lib')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/ld_library_path_lib.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/ld_library_path_lib.dsv'
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hook/ld_library_path_lib.sh'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/bin'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/pkgconfig/robotiq_driver.pc'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/python3.10/site-packages'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/bin'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.bash'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.zsh'
+[1.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/colcon-core/packages/robotiq_driver)
+[1.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_ar_publisher)
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher' for CMake module files
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher' for CMake config files
+[1.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'cmake_prefix_path')
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.ps1'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.sh'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib'
+[1.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'ld_library_path_lib')
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.sh'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/bin'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/pkgconfig/fake_ar_publisher.pc'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/python3.10/site-packages'
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/bin'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.sh'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.bash'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.zsh'
+[1.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/colcon-core/packages/fake_ar_publisher)
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_moveit_config -- -j12 -l12
+[1.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_ar_publisher)
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher' for CMake module files
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher' for CMake config files
+[1.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'cmake_prefix_path')
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.sh'
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib'
+[1.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'ld_library_path_lib')
+[1.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.ps1'
+[1.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.dsv'
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.sh'
+[1.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_core -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_core
+[1.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_moveit_config
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/bin'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/pkgconfig/fake_ar_publisher.pc'
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib/python3.10/site-packages'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/bin'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.ps1'
+[1.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv'
+[1.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.sh'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.bash'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/package.zsh'
+[1.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/colcon-core/packages/fake_ar_publisher)
+[1.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs' for CMake module files
+[1.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/ur_dashboard_msgs
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs' for CMake config files
+[1.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib'
+[1.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[1.752s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/bin'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/bin'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[1.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[1.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(workcell_core)
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/workcell_core' for CMake module files
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/workcell_core' for CMake config files
+[1.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('workcell_core', 'cmake_prefix_path')
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/hook/cmake_prefix_path.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/hook/cmake_prefix_path.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/hook/cmake_prefix_path.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/workcell_core/bin'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/workcell_core/lib/pkgconfig/workcell_core.pc'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/workcell_core/lib/python3.10/site-packages'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/stan/workspace/ws_ur_hv/install/workcell_core/bin'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.ps1'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.sh'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.bash'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.zsh'
+[1.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stan/workspace/ws_ur_hv/install/workcell_core/share/colcon-core/packages/workcell_core)
+[1.813s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.814s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.823s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.832s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stan/workspace/ws_ur_hv/install/local_setup.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stan/workspace/ws_ur_hv/install/_local_setup_util_ps1.py'
+[1.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stan/workspace/ws_ur_hv/install/setup.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stan/workspace/ws_ur_hv/install/local_setup.sh'
+[1.842s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stan/workspace/ws_ur_hv/install/_local_setup_util_sh.py'
+[1.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stan/workspace/ws_ur_hv/install/setup.sh'
+[1.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stan/workspace/ws_ur_hv/install/local_setup.bash'
+[1.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stan/workspace/ws_ur_hv/install/setup.bash'
+[1.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stan/workspace/ws_ur_hv/install/local_setup.zsh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stan/workspace/ws_ur_hv/install/setup.zsh'

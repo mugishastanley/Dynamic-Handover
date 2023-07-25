@@ -1,0 +1,2 @@
+Invoking command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12
+Invoked command in '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/fake_ar_publisher -- -j12 -l12

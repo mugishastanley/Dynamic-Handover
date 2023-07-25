@@ -1,0 +1,245 @@
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:31:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kfake_ar_publisher[m[K’ has not been declared
+   31 |   void visionCallback([01;31m[Kfake_ar_publisher[m[K::msg::ARMarker::SharedPtr msg)
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:31:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kmsg[m[K’
+   31 |   void visionCallback(fake_ar_publisher::msg::ARMarker::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                   [01;31m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyworkcell_core[m[K’ has not been declared
+   42 |   void localizePart([01;31m[Kmyworkcell_core[m[K::srv::LocalizePart::Request::SharedPtr req,
+      |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:42:76:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kreq[m[K’
+   42 |   void localizePart(myworkcell_core::srv::LocalizePart::Request::SharedPtr [01;31m[Kreq[m[K,
+      |                                                                            [01;31m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kfake_ar_publisher[m[K’ was not declared in this scope
+   67 |   rclcpp::Subscription<[01;31m[Kfake_ar_publisher[m[K::msg::ARMarker>::SharedPtr ar_sub_;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |   rclcpp::Subscription<fake_ar_publisher::msg::ARMarker[01;31m[K>[m[K::SharedPtr ar_sub_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   67 |   rclcpp::Subscription<fake_ar_publisher::msg::ARMarker>::[01;31m[KSharedPtr[m[K ar_sub_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kar_sub_[m[K’ does not name a type
+   67 |   rclcpp::Subscription<fake_ar_publisher::msg::ARMarker>::SharedPtr [01;31m[Kar_sub_[m[K;
+      |                                                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:68:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyworkcell_core[m[K’ was not declared in this scope; did you mean ‘[01m[Kworkcell_core[m[K’?
+   68 |   rclcpp::Service<[01;31m[Kmyworkcell_core[m[K::srv::LocalizePart>::SharedPtr server_;
+      |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                   [32m[Kworkcell_core[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:68:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |   rclcpp::Service<myworkcell_core::srv::LocalizePart[01;31m[K>[m[K::SharedPtr server_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:68:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |   rclcpp::Service<myworkcell_core::srv::LocalizePart>::[01;31m[KSharedPtr[m[K server_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:68:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Localizer::SharedPtr[m[K’
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:67:59:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Localizer::SharedPtr[m[K’
+   67 |   rclcpp::Subscription<fake_ar_publisher::msg::ARMarker>::[01;36m[KSharedPtr[m[K ar_sub_;
+      |                                                           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:68:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ does not name a type
+   68 |   rclcpp::Service<myworkcell_core::srv::LocalizePart>::SharedPtr [01;31m[Kserver_[m[K;
+      |                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfake_ar_publisher[m[K’ does not name a type
+   69 |   [01;31m[Kfake_ar_publisher[m[K::msg::ARMarker::SharedPtr last_msg_;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:[m[K In constructor ‘[01m[KLocalizer::Localizer()[m[K’:
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:19:84:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KLocalizer[m[K’ does not have any field named ‘[01m[Klast_msg_[m[K’
+   19 |   Localizer() : Node("vision_node"),buffer_(this->get_clock()), listener_(buffer_),[01;31m[Klast_msg_[m[K{nullptr}
+      |                                                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kar_sub_[m[K’ was not declared in this scope
+   21 |     [01;31m[Kar_sub_[m[K = this->create_subscription<fake_ar_publisher::msg::ARMarker>(
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:21:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kfake_ar_publisher[m[K’ was not declared in this scope
+   21 |     ar_sub_ = this->create_subscription<[01;31m[Kfake_ar_publisher[m[K::msg::ARMarker>(
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:21:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   21 |     ar_sub_ = this->[01;31m[Kcreate_subscription<fake_ar_publisher::msg::ARMarker>[m[K(
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:21:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLocalizer::create_subscription<<expression error> >(const char [15], rclcpp::QoS, std::_Bind_helper<false, void (Localizer::*)(int), Localizer*, const std::_Placeholder<1>&>::type)[m[K’
+   21 |     ar_sub_ = [01;31m[Kthis->create_subscription<fake_ar_publisher::msg::ARMarker>([m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   22 | [01;31m[K        "ar_pose_marker",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                                 
+   23 | [01;31m[K        rclcpp::QoS(1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~[m[K                                                   
+   24 | [01;31m[K        std::bind(&Localizer::visionCallback, this, std::placeholders::_1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:21:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     ar_sub_ = [01;31m[Kthis->create_subscription<fake_ar_publisher::msg::ARMarker>([m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   22 | [01;31m[K        "ar_pose_marker",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                                 
+   23 | [01;31m[K        rclcpp::QoS(1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~[m[K                                                   
+   24 | [01;31m[K        std::bind(&Localizer::visionCallback, this, std::placeholders::_1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+   26 |     [01;31m[Kserver_[m[K = this->create_service<myworkcell_core::srv::LocalizePart>(
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:26:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyworkcell_core[m[K’ was not declared in this scope; did you mean ‘[01m[Kworkcell_core[m[K’?
+   26 |     server_ = this->create_service<[01;31m[Kmyworkcell_core[m[K::srv::LocalizePart>(
+      |                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                    [32m[Kworkcell_core[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:26:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   26 |     server_ = this->[01;31m[Kcreate_service<myworkcell_core::srv::LocalizePart>[m[K(
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:7[m[K:
+/usr/include/c++/11/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (Localizer::*)(int), Localizer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>[m[K’:
+[01m[K/usr/include/c++/11/functional:768:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (Localizer::*)(int), Localizer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>[m[K’
+[01m[K/usr/include/c++/11/functional:789:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (Localizer::*)(int); _BoundArgs = {Localizer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}][m[K’
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:28:18:[m[K   required from here
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  755 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  756 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  757 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/functional:756:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (3 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (3 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))[m[K’ evaluates to false
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:26:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLocalizer::create_service<<expression error> >(const char [14], std::_Bind_helper<false, void (Localizer::*)(int), Localizer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   26 |     server_ = [01;31m[Kthis->create_service<myworkcell_core::srv::LocalizePart>([m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   27 | [01;31m[K        "localize_part",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~[m[K                                               
+   28 | [01;31m[K        std::bind(&Localizer::localizePart, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:26:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     server_ = [01;31m[Kthis->create_service<myworkcell_core::srv::LocalizePart>([m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   27 | [01;31m[K        "localize_part",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~[m[K                                               
+   28 | [01;31m[K        std::bind(&Localizer::localizePart, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:[m[K In member function ‘[01m[Kvoid Localizer::visionCallback(int)[m[K’:
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_msg_[m[K’ was not declared in this scope
+   33 |     [01;31m[Klast_msg_[m[K = msg;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:33:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   33 |     last_msg_ = [01;31m[Kmsg[m[K;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:33:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/build/workcell_core/rosidl_generator_cpp/workcell_core/srv/detail/localize_part__struct.hpp:134[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/build/workcell_core/rosidl_generator_cpp/workcell_core/srv/localize_part.hpp:7[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:44[m[K,
+                 from [01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:31:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |   void visionCallback([01;35m[Kfake_ar_publisher::msg::ARMarker::SharedPtr[m[K msg)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:[m[K In member function ‘[01m[Kvoid Localizer::localizePart(int)[m[K’:
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfake_ar_publisher[m[K’ has not been declared
+   46 |     [01;31m[Kfake_ar_publisher[m[K::msg::ARMarker::SharedPtr p = last_msg_;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:48:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+   48 |     if (! [01;31m[Kp[m[K)
+      |           [01;31m[K^[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope
+   51 |       [01;31m[Kres[m[K->success = false;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+   57 |     target_pose_from_cam.header = [01;31m[Kp[m[K->header;
+      |                                   [01;31m[K^[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:60:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq[m[K’ was not declared in this scope
+   60 |     target_pose_from_cam, [01;31m[Kreq[m[K->base_frame);
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kres[m[K’ was not declared in this scope
+   62 |     [01;31m[Kres[m[K->pose = target_pose_from_req.pose;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:42:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |   void localizePart([01;35m[Kmyworkcell_core::srv::LocalizePart::Request::SharedPtr[m[K req,
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/vision_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

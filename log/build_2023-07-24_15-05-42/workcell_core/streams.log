@@ -1,0 +1,20 @@
+[0.033s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[0.081s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[0.170s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/workcell_core
+[0.197s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/package_run_dependencies/workcell_core
+[0.198s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/parent_prefix_path/workcell_core
+[0.198s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/ament_prefix_path.sh
+[0.198s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/ament_prefix_path.dsv
+[0.198s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/path.sh
+[0.199s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/path.dsv
+[0.199s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.bash
+[0.199s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.sh
+[0.199s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.zsh
+[0.199s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.dsv
+[0.199s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.dsv
+[0.199s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/packages/workcell_core
+[0.200s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_coreConfig.cmake
+[0.200s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_coreConfig-version.cmake
+[0.200s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.xml
+[0.254s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/workcell_core

@@ -1,0 +1,67 @@
+[0.030s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/robotiq_driver
+[0.064s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.181s] -- Found hardware_interface: 2.28.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.221s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.224s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.553s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.556s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.103s] -- Found serial: 1.2.1 (/home/stan/workspace/ws_ur_hv/install/serial/share/serial/cmake)
+[2.200s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.317s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.317s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver/include>;/home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver/include
+[2.317s] -- Configured cppcheck exclude dirs and/or files: 
+[2.318s] -- Added test 'lint_cmake' to check CMake code style
+[2.319s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.319s] -- Added test 'xmllint' to check XML markup files
+[2.326s] -- Configuring done (2.3s)
+[2.414s] -- Generating done (0.1s)
+[2.418s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/robotiq_driver
+[2.440s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/robotiq_driver
+[2.442s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_driver -- -j12 -l12
+[2.504s] [ 66%] Built target robotiq_driver
+[2.516s] [100%] Built target gripper_interface_test
+[2.524s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/robotiq_driver -- -j12 -l12
+[2.587s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_driver
+[2.614s] -- Install configuration: "Release"
+[2.614s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/hardware_interface_plugin.xml
+[2.615s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/librobotiq_driver.so
+[2.616s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/lib/robotiq_driver/gripper_interface_test
+[2.616s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include
+[2.616s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver
+[2.616s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/hardware_interface.hpp
+[2.617s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/crc.hpp
+[2.617s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/robotiq_gripper_interface.hpp
+[2.617s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/include/robotiq_driver/visibility_control.h
+[2.617s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/config
+[2.617s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/config/robotiq_controllers.yaml
+[2.617s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/launch
+[2.618s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/launch/robotiq_control.launch.py
+[2.618s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/library_path.sh
+[2.618s] -- Installing: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/library_path.dsv
+[2.618s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/package_run_dependencies/robotiq_driver
+[2.618s] -- Installing: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/parent_prefix_path/robotiq_driver
+[2.619s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.sh
+[2.619s] -- Installing: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.dsv
+[2.619s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/path.sh
+[2.619s] -- Installing: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/environment/path.dsv
+[2.619s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.bash
+[2.619s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.sh
+[2.619s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.zsh
+[2.620s] -- Installing: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/local_setup.dsv
+[2.620s] -- Installing: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.dsv
+[2.620s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/packages/robotiq_driver
+[2.620s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robotiq_driver
+[2.620s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/export_robotiq_driverExport.cmake
+[2.620s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/export_robotiq_driverExport-release.cmake
+[2.620s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.621s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[2.621s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_targets-extras.cmake
+[2.621s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.621s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig.cmake
+[2.621s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig-version.cmake
+[2.621s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/robotiq_driver/share/robotiq_driver/package.xml
+[2.630s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/serial:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/serial/lib:${LD_LIBRARY_PATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/robotiq_driver

@@ -1,0 +1,12 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:38 (rosidl_target_interfaces)
+
+[0m
+failed to create symbolic link '/home/stan/workspace/ws_ur_hv/build/fake_ar_publisher/ament_cmake_python/fake_ar_publisher/fake_ar_publisher' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_fake_ar_publisher.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_fake_ar_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_fake_ar_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

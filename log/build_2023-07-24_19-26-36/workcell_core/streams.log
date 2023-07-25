@@ -1,0 +1,150 @@
+[0.012s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[0.068s] [  3%] Built target workcell_core__cpp
+[0.068s] [ 12%] Built target workcell_core__rosidl_generator_c
+[0.074s] [ 12%] Built target ament_cmake_python_copy_workcell_core
+[0.084s] [ 24%] Built target workcell_core__rosidl_typesupport_cpp
+[0.084s] [ 33%] Built target workcell_core__rosidl_typesupport_c
+[0.085s] [ 39%] Built target workcell_core__rosidl_typesupport_introspection_c
+[0.085s] [ 51%] Built target workcell_core__rosidl_typesupport_fastrtps_cpp
+[0.085s] [ 57%] Built target workcell_core__rosidl_typesupport_introspection_cpp
+[0.090s] [ 66%] Built target workcell_core__rosidl_typesupport_fastrtps_c
+[0.116s] [ 66%] Built target workcell_core
+[0.140s] [ 69%] Built target workcell_core__py
+[0.148s] [ 75%] Built target vision_node
+[0.148s] [ 81%] Built target workcell_core__rosidl_generator_py
+[0.149s] [ 87%] Built target workcell_core__rosidl_typesupport_c__pyext
+[0.149s] [ 93%] Built target workcell_core__rosidl_typesupport_fastrtps_c__pyext
+[0.149s] [100%] Built target workcell_core__rosidl_typesupport_introspection_c__pyext
+[0.430s] running egg_info
+[0.430s] writing workcell_core.egg-info/PKG-INFO
+[0.431s] writing dependency_links to workcell_core.egg-info/dependency_links.txt
+[0.431s] writing top-level names to workcell_core.egg-info/top_level.txt
+[0.433s] reading manifest file 'workcell_core.egg-info/SOURCES.txt'
+[0.434s] writing manifest file 'workcell_core.egg-info/SOURCES.txt'
+[0.457s] [100%] Built target ament_cmake_python_build_workcell_core_egg
+[0.466s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[0.554s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/workcell_core
+[0.586s] -- Install configuration: ""
+[0.586s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/rosidl_interfaces/workcell_core
+[0.586s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core
+[0.586s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv
+[0.586s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail
+[0.586s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__functions.c
+[0.586s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__functions.h
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__struct.h
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__type_support.h
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/localize_part.h
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg/rosidl_generator_c__visibility_control.h
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/library_path.sh
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/library_path.dsv
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_generator_c.so
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core
+[0.587s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__rosidl_typesupport_fastrtps_c.h
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_typesupport_fastrtps_c.so
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/localize_part.hpp
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail
+[0.588s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__builder.hpp
+[0.589s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__traits.hpp
+[0.589s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__struct.hpp
+[0.589s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core
+[0.589s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv
+[0.589s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail
+[0.589s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/dds_fastrtps
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__rosidl_typesupport_fastrtps_cpp.hpp
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_typesupport_fastrtps_cpp.so
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__type_support.c
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_typesupport_introspection_c.so
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_typesupport_c.so
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__rosidl_typesupport_introspection_cpp.hpp
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/include/workcell_core/workcell_core/srv/detail/localize_part__type_support.cpp
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_typesupport_introspection_cpp.so
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_typesupport_cpp.so
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/pythonpath.sh
+[0.591s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/pythonpath.dsv
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core-0.0.0-py3.10.egg-info
+[0.592s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core-0.0.0-py3.10.egg-info/PKG-INFO
+[0.592s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core-0.0.0-py3.10.egg-info/top_level.txt
+[0.592s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.592s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/_workcell_core_s.ep.rosidl_typesupport_c.c
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/_workcell_core_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/__init__.py
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/workcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/srv
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/srv/__init__.py
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/srv/_localize_part_s.c
+[0.592s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/srv/_localize_part.py
+[0.593s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/libworkcell_core__rosidl_generator_py.so
+[0.593s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/_workcell_core_s.ep.rosidl_typesupport_introspection_c.c
+[0.593s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/workcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.593s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/workcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.622s] Listing '/home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core'...
+[0.622s] Listing '/home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/srv'...
+[0.627s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/workcell_core_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.627s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/workcell_core_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.628s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/local/lib/python3.10/dist-packages/workcell_core/workcell_core_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.628s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/libworkcell_core__rosidl_generator_py.so
+[0.628s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/srv/LocalizePart.idl
+[0.628s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/srv/LocalizePart.srv
+[0.629s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/srv/LocalizePart_Request.msg
+[0.629s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/srv/LocalizePart_Response.msg
+[0.629s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/lib/workcell_core/vision_node
+[0.629s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/package_run_dependencies/workcell_core
+[0.629s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/parent_prefix_path/workcell_core
+[0.630s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/ament_prefix_path.sh
+[0.630s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/ament_prefix_path.dsv
+[0.630s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/path.sh
+[0.630s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/environment/path.dsv
+[0.630s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.bash
+[0.630s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.sh
+[0.631s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.zsh
+[0.631s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/local_setup.dsv
+[0.631s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.dsv
+[0.631s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/ament_index/resource_index/packages/workcell_core
+[0.631s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_generator_cExport.cmake
+[0.631s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_generator_cExport-noconfig.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_typesupport_fastrtps_cExport.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_generator_cppExport.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_introspection_cExport.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.632s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_cExport.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_cExport-noconfig.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_introspection_cppExport.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_cppExport.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_core__rosidl_typesupport_cppExport-noconfig.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_generator_pyExport.cmake
+[0.633s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/export_workcell_core__rosidl_generator_pyExport-noconfig.cmake
+[0.634s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/rosidl_cmake-extras.cmake
+[0.634s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.634s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.634s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/ament_cmake_export_libraries-extras.cmake
+[0.634s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/ament_cmake_export_targets-extras.cmake
+[0.634s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.635s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.635s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_coreConfig.cmake
+[0.635s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/cmake/workcell_coreConfig-version.cmake
+[0.635s] -- Up-to-date: /home/stan/workspace/ws_ur_hv/install/workcell_core/share/workcell_core/package.xml
+[0.647s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/workcell_core

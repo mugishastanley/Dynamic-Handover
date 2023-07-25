@@ -1,0 +1,60 @@
+[0.014s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_moveit_config -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_moveit_config
+[0.152s] -- The C compiler identification is GNU 11.3.0
+[0.257s] -- The CXX compiler identification is GNU 11.3.0
+[0.291s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.388s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.472s] -- Detecting CXX compile features - done
+[0.476s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.678s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.879s] -- Configuring done (0.8s)
+[0.885s] -- Generating done (0.0s)
+[0.888s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/workcell_moveit_config
+[0.899s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_moveit_config -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_moveit_config
+[0.901s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_moveit_config -- -j12 -l12
+[0.947s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_moveit_config -- -j12 -l12
+[0.999s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/workcell_moveit_config
+[1.033s] -- Install configuration: ""
+[1.034s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/ament_index/resource_index/package_run_dependencies/workcell_moveit_config
+[1.034s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/ament_index/resource_index/parent_prefix_path/workcell_moveit_config
+[1.036s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/environment/ament_prefix_path.sh
+[1.036s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/environment/ament_prefix_path.dsv
+[1.038s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/environment/path.sh
+[1.038s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/environment/path.dsv
+[1.038s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/local_setup.bash
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/local_setup.sh
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/local_setup.zsh
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/local_setup.dsv
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/package.dsv
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/ament_index/resource_index/packages/workcell_moveit_config
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/cmake/workcell_moveit_configConfig.cmake
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/cmake/workcell_moveit_configConfig-version.cmake
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/package.xml
+[1.039s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/moveit_rviz.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/spawn_controllers.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/demo.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/warehouse_db.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/move_group.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/setup_assistant.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/launch/rsp.launch.py
+[1.040s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config
+[1.041s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/ros2_controllers.yaml
+[1.041s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/moveit_controllers.yaml
+[1.041s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/pilz_cartesian_limits.yaml
+[1.041s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/myworkcell.srdf
+[1.041s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/myworkcell.ros2_control.xacro
+[1.041s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/moveit.rviz
+[1.042s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/initial_positions.yaml
+[1.042s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/joint_limits.yaml
+[1.042s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/myworkcell.urdf.xacro
+[1.042s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/config/kinematics.yaml
+[1.042s] -- Installing: /home/stan/workspace/ws_ur_hv/install/workcell_moveit_config/share/workcell_moveit_config/.setup_assistant
+[1.065s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/workcell_support:/home/stan/workspace/ws_ur_hv/install/workcell_core:/opt/ros/humble /home/stan/.local/bin/cmake --install /home/stan/workspace/ws_ur_hv/build/workcell_moveit_config

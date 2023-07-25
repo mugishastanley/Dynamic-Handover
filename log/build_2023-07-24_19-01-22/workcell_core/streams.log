@@ -1,0 +1,94 @@
+[0.032s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[0.077s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.288s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.295s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.304s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.630s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.879s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[0.944s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.424s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.431s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.433s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.448s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.597s] -- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.615s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.643s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.659s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.704s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.869s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.160s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.650s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.917s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.418s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.448s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.448s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.448s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.550s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.571s] -- Configured cppcheck include dirs: 
+[5.571s] -- Configured cppcheck exclude dirs and/or files: 
+[5.572s] -- Added test 'lint_cmake' to check CMake code style
+[5.573s] -- Added test 'uncrustify' to check C / C++ code style
+[5.574s] -- Configured uncrustify additional arguments: 
+[5.574s] -- Added test 'xmllint' to check XML markup files
+[5.577s] -- Configuring done (5.5s)
+[5.649s] -- Generating done (0.1s)
+[5.657s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/workcell_core
+[5.686s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.689s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.692s] [  6%] Built target ament_cmake_python_copy_workcell_core
+[5.987s] running egg_info
+[5.988s] creating workcell_core.egg-info
+[5.988s] writing workcell_core.egg-info/PKG-INFO
+[5.989s] writing dependency_links to workcell_core.egg-info/dependency_links.txt
+[5.989s] writing top-level names to workcell_core.egg-info/top_level.txt
+[5.990s] writing manifest file 'workcell_core.egg-info/SOURCES.txt'
+[5.994s] reading manifest file 'workcell_core.egg-info/SOURCES.txt'
+[5.994s] writing manifest file 'workcell_core.egg-info/SOURCES.txt'
+[6.025s] [  6%] Built target workcell_core__cpp
+[6.028s] [  6%] Built target ament_cmake_python_build_workcell_core_egg
+[6.031s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.031s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.031s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.057s] [ 18%] [32mBuilding C object CMakeFiles/workcell_core__rosidl_generator_c.dir/rosidl_generator_c/workcell_core/srv/detail/localize_part__functions.c.o[0m
+[6.133s] [ 21%] [32m[1mLinking C shared library libworkcell_core__rosidl_generator_c.so[0m
+[6.166s] [ 21%] Built target workcell_core__rosidl_generator_c
+[6.171s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.172s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.173s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.375s] [ 33%] [32mBuilding CXX object CMakeFiles/workcell_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/workcell_core/srv/detail/localize_part__type_support.cpp.o[0m
+[6.388s] [ 36%] [32mBuilding CXX object CMakeFiles/workcell_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/workcell_core/srv/detail/dds_fastrtps/localize_part__type_support.cpp.o[0m
+[6.411s] [ 39%] [32mBuilding CXX object CMakeFiles/workcell_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/workcell_core/srv/localize_part__type_support.cpp.o[0m
+[6.536s] [ 42%] [32mBuilding CXX object CMakeFiles/workcell_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/workcell_core/srv/detail/localize_part__type_support_c.cpp.o[0m
+[6.625s] [ 45%] [32mBuilding CXX object CMakeFiles/workcell_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/workcell_core/srv/localize_part__type_support.cpp.o[0m
+[6.670s] [ 48%] [32m[1mLinking CXX shared library libworkcell_core__rosidl_typesupport_c.so[0m
+[6.697s] [ 51%] [32mBuilding C object CMakeFiles/workcell_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/workcell_core/srv/detail/localize_part__type_support.c.o[0m
+[6.702s] [ 51%] Built target workcell_core__rosidl_typesupport_c
+[6.730s] [ 54%] [32m[1mLinking C shared library libworkcell_core__rosidl_typesupport_introspection_c.so[0m
+[6.755s] [ 54%] Built target workcell_core__rosidl_typesupport_introspection_c
+[6.798s] [ 57%] [32m[1mLinking CXX shared library libworkcell_core__rosidl_typesupport_cpp.so[0m
+[6.827s] [ 57%] Built target workcell_core__rosidl_typesupport_cpp
+[6.829s] [ 60%] [32m[1mLinking CXX shared library libworkcell_core__rosidl_typesupport_introspection_cpp.so[0m
+[6.835s] [ 63%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[6.850s] [ 66%] [32m[1mLinking CXX executable vision_node[0m
+[6.857s] [ 69%] [32m[1mLinking CXX shared library libworkcell_core__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.882s] [ 69%] Built target workcell_core__rosidl_typesupport_introspection_cpp
+[6.926s] [ 72%] [32m[1mLinking CXX shared library libworkcell_core__rosidl_typesupport_fastrtps_c.so[0m
+[6.935s] [ 72%] Built target workcell_core__rosidl_typesupport_fastrtps_cpp
+[6.965s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[6.965s] (.text+0x1b): undefined reference to `main'
+[6.967s] collect2: error: ld returned 1 exit status
+[6.968s] gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:199: vision_node] Error 1
+[6.968s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/vision_node.dir/all] Error 2
+[6.968s] gmake[1]: *** Waiting for unfinished jobs....
+[6.984s] [ 72%] Built target workcell_core__rosidl_typesupport_fastrtps_c
+[6.984s] gmake: *** [Makefile:146: all] Error 2
+[6.990s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12

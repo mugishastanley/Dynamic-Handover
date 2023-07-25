@@ -1,0 +1,6 @@
+[01m[K/home/stan/workspace/ws_ur_hv/src/hello_moveit_ur/src/point_to_point.cpp:80:31:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   80 | void moveRobotArmThroughPoses([01;35m[Kauto[m[K const &node, const std::vector<geometry_msgs::msg::Pose>& target_poses)
+      |                               [01;35m[K^~~~[m[K
+[01m[K/home/stan/workspace/ws_ur_hv/src/hello_moveit_ur/src/moveit_eval.cpp:6:31:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+    6 | void moveRobotArmThroughPoses([01;35m[Kauto[m[K const &node, const std::vector<geometry_msgs::msg::Pose>& target_poses)
+      |                               [01;35m[K^~~~[m[K

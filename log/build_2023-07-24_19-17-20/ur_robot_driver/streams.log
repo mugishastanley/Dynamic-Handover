@@ -1,0 +1,13 @@
+[0.021s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_controllers:/home/stan/workspace/ws_ur_hv/install/ur_description:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/ur_controllers/lib:/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_robot_driver -- -j12 -l12
+[0.086s] [  0%] Built target ament_cmake_python_copy_ur_robot_driver
+[0.087s] [ 15%] Built target ur_ros2_control_node
+[0.089s] [ 38%] Built target controller_stopper_node
+[0.091s] [ 69%] Built target dashboard_client
+[0.104s] [100%] Built target ur_robot_driver_plugin
+[0.420s] running egg_info
+[0.421s] writing ur_robot_driver.egg-info/PKG-INFO
+[0.421s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[0.422s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[0.424s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.424s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.446s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg

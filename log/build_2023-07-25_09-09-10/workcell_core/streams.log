@@ -1,0 +1,56 @@
+[0.009s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_core
+[0.045s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.172s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.233s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.246s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.365s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.521s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Found fake_ar_publisher: 0.0.0 (/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/share/fake_ar_publisher/cmake)
+[1.226s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[1.236s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.671s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.676s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.678s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.689s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.450s] -- Found moveit_ros_planning_interface: 2.5.4 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.464s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.494s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.510s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.557s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.853s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.457s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.744s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.239s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.529s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.061s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.090s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.090s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.159s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.177s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.178s] -- Configured cppcheck include dirs: 
+[5.179s] -- Configured cppcheck exclude dirs and/or files: 
+[5.179s] -- Added test 'lint_cmake' to check CMake code style
+[5.181s] -- Added test 'uncrustify' to check C / C++ code style
+[5.181s] -- Configured uncrustify additional arguments: 
+[5.181s] -- Added test 'xmllint' to check XML markup files
+[5.188s] -- Configuring done (5.1s)
+[5.289s] -- Generating done (0.1s)
+[5.294s] -- Build files have been written to: /home/stan/workspace/ws_ur_hv/build/workcell_core
+[5.316s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '0': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_core
+[5.319s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
+[5.371s] failed to create symbolic link '/home/stan/workspace/ws_ur_hv/build/workcell_core/ament_cmake_python/workcell_core/workcell_core' because existing path cannot be removed: Is a directory
+[5.371s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_workcell_core.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_workcell_core] Error 1
+[5.371s] gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_symlink_workcell_core.dir/all] Error 2
+[5.371s] gmake[1]: *** Waiting for unfinished jobs....
+[5.372s] [  2%] Built target workcell_core__cpp
+[5.373s] [ 11%] Built target workcell_core__rosidl_generator_c
+[5.374s] gmake: *** [Makefile:146: all] Error 2
+[5.380s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '2': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/stan/workspace/ws_ur_hv/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
