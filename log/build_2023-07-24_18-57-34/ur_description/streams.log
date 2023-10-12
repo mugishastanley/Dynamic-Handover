@@ -1,2 +1,0 @@
-[0.034s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_description -- -j12 -l12
-[0.085s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_description -- -j12 -l12

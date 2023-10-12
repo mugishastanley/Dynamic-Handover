@@ -33,10 +33,16 @@ def generate_launch_description():
         ],
     )
 
-    world_mycam_tf_node = Node(
+    world_cam_tf= Node(
         package='tf2_ros',
         executable='static_transform_publisher',
-        arguments = ['--x', '0.2689', '--y', '-0.197', '--z', '-0.826', '--yaw', '-0.678', '--pitch', '-0.5', '--roll', '1.475', '--frame-id', 'world', '--child-frame-id', 'mycam']
+        arguments = ['--x', '0.0', '--y', '-0.2', '--z', '1.55', '--yaw', '-0.0', '--pitch', '-0.0', '--roll', '0', '--frame-id', 'world', '--child-frame-id', 'camera_color_optical_frame']
     )
+    world_robot_tf=Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments = ['--x', '0.0', '--y', '-0.0', '--z', '0.85', '--yaw', '-0.0', '--pitch', '-0.0', '--roll', '0', '--frame-id', 'world', '--child-frame-id', 'base_link']
+    )
+    
 
-    return launch.LaunchDescription([world_mycam_tf_node,demo_node])
+    return launch.LaunchDescription([world_cam_tf,demo_node,robot_state_publisher])

@@ -1,4 +1,4 @@
-manipulator:
+ur_manipulator:
   default_planner_config: RRTConnect
   planner_configs:
     - AnytimePathShortening

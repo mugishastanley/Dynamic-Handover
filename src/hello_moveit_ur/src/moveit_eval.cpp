@@ -1,3 +1,7 @@
+// This node moves the robot arm to a target pose predefined by the human.
+// AN obstacle is deined in the scene as the human arm and evaluation for safety has to be made from this.
+
+
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>

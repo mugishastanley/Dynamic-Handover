@@ -1,8 +1,0 @@
-[0.031s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12
-[0.070s] [31mCMake Error at CMakeLists.txt:10:
-[0.070s]   Parse error.  Expected a command name, got bad character with text "\".
-[0.070s] 
-[0.070s] [0m
-[0.070s] -- Configuring incomplete, errors occurred!
-[0.072s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.078s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/workcell_core -- -j12 -l12

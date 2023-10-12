@@ -1,5 +1,0 @@
-failed to create symbolic link '/home/stan/workspace/ws_ur_hv/build/workcell_core/ament_cmake_python/workcell_core/workcell_core' because existing path cannot be removed: Is a directory
-gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_workcell_core.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_workcell_core] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_symlink_workcell_core.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

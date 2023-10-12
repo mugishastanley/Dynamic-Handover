@@ -37,9 +37,24 @@ add_executable(workcell_node src/workcell_node.cpp)
 ament_target_dependencies(workcell_node rclcpp moveit_msgs moveit_ros_planning_interface)
 target_link_libraries(workcell_node "${cpp_typesupport_target}")
 
+# The pose transformer executable
+add_executable(pose_transformer_node src/pose_transformer_node.cpp)
+ament_target_dependencies(pose_transformer_node rclcpp moveit_msgs moveit_ros_planning_interface)
+target_link_libraries(pose_transformer_node "${cpp_typesupport_target}")
+
+
+
 # Mark executables for installation
 install(TARGETS vision_node 
     DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS workcell_node 
+    DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS pose_transformer_node
+    DESTINATION lib/${PROJECT_NAME})
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

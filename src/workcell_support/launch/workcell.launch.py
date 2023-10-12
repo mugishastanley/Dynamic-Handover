@@ -28,12 +28,15 @@ def load_yaml(file_path):
         return None
 
 def generate_launch_description():
-    xacro_file = get_package_file('myworkcell_support', 'urdf/workcell.urdf.xacro')
-    srdf_file = get_package_file('myworkcell_moveit_config', 'config/myworkcell.srdf')
-    kinematics_file = get_package_file('myworkcell_moveit_config', 'config/kinematics.yaml')
-    ompl_config_file = get_package_file('myworkcell_moveit_config', 'config/ompl_planning.yaml')
-    joint_limits_file = get_package_file('myworkcell_moveit_config','config/joint_limits.yaml')
-    moveit_controllers_file = get_package_file('myworkcell_moveit_config', 'config/moveit_controllers.yaml')
+    xacro_file = get_package_file('workcell_support', 'urdf/workcell.urdf.xacro')
+    srdf_file = get_package_file('workcell_moveit_config', 'config/myworkcell.srdf')
+    kinematics_file = get_package_file('workcell_moveit_config', 'config/kinematics.yaml')
+    ompl_config_file = get_package_file('workcell_moveit_config', 'config/ompl_planning.yaml')
+    joint_limits_file = get_package_file('workcell_moveit_config','config/joint_limits.yaml')
+    moveit_controllers_file = get_package_file('workcell_moveit_config', 'config/moveit_controllers.yaml')
+    #aruco_params= get_package_file('ros2_aruco', 'config/aruco_parameters.yaml')
+  
+
 
     robot_description = xacro.process_file(xacro_file).toprettyxml(indent='  ')
     robot_description_semantic = load_file(srdf_file)
@@ -56,37 +59,40 @@ def generate_launch_description():
         'publish_transforms_updates': True
     }
 
-    moveit_cpp_config = yaml.load("""
-        planning_scene_monitor_options:
-          name: "planning_scene_monitor"
-          robot_description: "robot_description"
-          joint_state_topic: "/joint_states"
-          attached_collision_object_topic: "/moveit_cpp/planning_scene_monitor"
-          publish_planning_scene_topic: "/moveit_cpp/publish_planning_scene"
-          monitored_planning_scene_topic: "/moveit_cpp/monitored_planning_scene"
-          wait_for_initial_state_timeout: 10.0
+    # moveit_cpp_config = yaml.load("""
+    #     planning_scene_monitor_options:
+    #       name: "planning_scene_monitor"
+    #       robot_description: "robot_description"
+    #       joint_state_topic: "/joint_states"
+    #       attached_collision_object_topic: "/moveit_cpp/planning_scene_monitor"
+    #       publish_planning_scene_topic: "/moveit_cpp/publish_planning_scene"
+    #       monitored_planning_scene_topic: "/moveit_cpp/monitored_planning_scene"
+    #       wait_for_initial_state_timeout: 10.0
 
-        planning_pipelines:
-          #namespace: "moveit_cpp"  # optional, default is ~
-          pipeline_names: ["ompl"]
+    #     planning_pipelines:
+    #       #namespace: "moveit_cpp"  # optional, default is ~
+    #       pipeline_names: ["ompl"]
 
-        plan_request_params:
-          planning_time: 10.0
-          planning_attempts: 3
-          planning_pipeline: ompl
-          max_velocity_scaling_factor: 0.5
-          max_acceleration_scaling_factor: 0.5
+    #     plan_request_params:
+    #       planning_time: 10.0
+    #       planning_attempts: 3
+    #       planning_pipeline: ompl
+    #       max_velocity_scaling_factor: 0.5
+    #       max_acceleration_scaling_factor: 0.5
 
-        # octomap parameters (when used)
-        octomap_frame: world
-        octomap_resolution: 0.01
-        max_range: 5.0""")
+    #     # octomap parameters (when used)
+    #     octomap_frame: world
+    #     octomap_resolution: 0.01
+    #     max_range: 5.0"""),
+    
+
+
 
     return LaunchDescription([
         Node(
-            name='myworkcell_node',
-            package='myworkcell_core',
-            executable='myworkcell_node',
+            name='workcell_node',
+            package='workcell_core',
+            executable='workcell_node',
             output='screen',
             parameters=[
                 {
@@ -98,22 +104,31 @@ def generate_launch_description():
                     'planning_pipelines': ['ompl'],
                     'ompl': ompl_config
                 },
-                moveit_cpp_config,
+                #moveit_cpp_config,
                 moveit_controllers,
                 trajectory_execution,
                 planning_scene_monitor_config,
             ],
         ),
-        Node(
-            name='fake_ar_publisher_node',
-            package='fake_ar_publisher',
-            executable='fake_ar_publisher_node',
-            output='screen',
-        ),
-        Node(
-            name='vision_node',
-            package='myworkcell_core',
-            executable='vision_node',
-            output='screen',
-        ),
+        # Node(
+        #    name='fake_ar_publisher_node',
+        #    package='fake_ar_publisher',
+        #    executable='fake_ar_publisher_node',
+        #    output='screen',
+        # ),
+        # Node(
+        #     name='vision_node',
+        #     package='workcell_core',
+        #     executable='vision_node',
+        #     output='screen',
+        # ),
+
+        # Node(
+        # package='ros2_aruco',
+        # executable='aruco_node',
+        # parameters=[aruco_params]
+        # ),
+
+
+        
     ])

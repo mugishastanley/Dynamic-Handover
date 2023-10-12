@@ -1,8 +1,0 @@
-[01m[K/home/stan/workspace/ws_ur_hv/src/workcell_core/src/vision_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmyworkcell_core/srv/localize_part.hpp: No such file or directory
-    9 | #include [01;31m[K<myworkcell_core/srv/localize_part.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/vision_node.dir/build.make:76: CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/vision_node.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

@@ -3,6 +3,7 @@
 #include <workcell_core/srv/localize_part.hpp>
 #include <moveit/moveit_cpp/moveit_cpp.h>
 #include <moveit/moveit_cpp/planning_component.h>
+#include <geometry_msgs/msg/pose_stamped.hpp>
 
 
 class ScanNPlan : public rclcpp::Node
@@ -18,17 +19,14 @@ public:
 
   
 
-  
-
-
   // MoveIt setup
 void setup()
 {
-  // Instantiate moveit_cpp
+  // Instantiate moveit_cpps
   moveit_cpp_ = std::make_shared<moveit_cpp::MoveItCpp>(this->shared_from_this());
 
   // Planning component associated with a single motion group
-  planning_component_ = std::make_shared<moveit_cpp::PlanningComponent>("manipulator", moveit_cpp_);
+  planning_component_ = std::make_shared<moveit_cpp::PlanningComponent>("ur_manipulator", moveit_cpp_);
 
   // Parameters set on this node
   plan_parameters_.load(this->shared_from_this());
@@ -50,8 +48,6 @@ void setup()
     RCLCPP_INFO_STREAM(get_logger(), "Requesting pose in base frame: " << base_frame);
 
     auto future = vision_client_->async_send_request(request);
-
-
 
     //if (future.wait_for(std::chrono::seconds(3)) == std::future_status::timeout)
     if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future) != rclcpp::FutureReturnCode::SUCCESS)
@@ -101,14 +97,12 @@ void setup()
     }
 
     // If planning succeeded, execute the returned trajectory
-    bool success = moveit_cpp_->execute("manipulator", plan_solution.trajectory, true);
+    bool success = moveit_cpp_->execute("ur_manipulator", plan_solution.trajectory, true);
     if (!success)
     {
       RCLCPP_ERROR_STREAM(this->get_logger(), "Failed to execute trajectory");
       return;
     }
-
-
 
   }
 

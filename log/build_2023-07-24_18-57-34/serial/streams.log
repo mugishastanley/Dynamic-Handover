@@ -1,3 +1,0 @@
-[0.029s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/serial -- -j12 -l12
-[0.082s] [100%] Built target serial
-[0.096s] Invoked command in '/home/stan/workspace/ws_ur_hv/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/serial -- -j12 -l12

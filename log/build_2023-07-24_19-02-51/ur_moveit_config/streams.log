@@ -1,9 +1,0 @@
-[0.058s] Invoking command in '/home/stan/workspace/ws_ur_hv/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stan/workspace/ws_ur_hv/install/ur_description:/opt/ros/humble /home/stan/.local/bin/cmake --build /home/stan/workspace/ws_ur_hv/build/ur_moveit_config -- -j12 -l12
-[0.105s] Built target ament_cmake_python_copy_ur_moveit_config
-[0.463s] running egg_info
-[0.463s] writing ur_moveit_config.egg-info/PKG-INFO
-[0.464s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
-[0.464s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
-[0.468s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
-[0.469s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
-[0.490s] Built target ament_cmake_python_build_ur_moveit_config_egg

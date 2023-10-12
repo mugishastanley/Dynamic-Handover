@@ -1,2 +1,0 @@
-Invoking command in '/home/stan/workspace/ws_ur_hv/build/workcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_core -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_core
-Invoked command in '/home/stan/workspace/ws_ur_hv/build/workcell_core' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /home/stan/.local/bin/cmake /home/stan/workspace/ws_ur_hv/src/workcell_core -DCMAKE_INSTALL_PREFIX=/home/stan/workspace/ws_ur_hv/install/workcell_core

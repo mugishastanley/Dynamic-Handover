@@ -1,79 +1,109 @@
+//This node subscribes to the /aruco_poses topic and prints the last received pose and
+//the new transformed pose.
 #include <rclcpp/rclcpp.hpp>
+#include <hello_moveit_ur/srv/localize_part.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
-#include "geometry_msgs/msg/transform_stamped.hpp"
-#include <tf2_ros/transform_listener.h>
-#include <tf2_ros/transform_broadcaster.h>
+#include <geometry_msgs/msg/pose_array.hpp>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <tf2_ros/buffer.h>
+#include <tf2_ros/transform_listener.h>
 
-using namespace std::chrono_literals;
-
-class ObjectLocalizer : public rclcpp::Node
+class Localizer : public rclcpp::Node
 {
 public:
-  ObjectLocalizer()
-    : Node("object_localizer")
-  {
-    publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("/object_pose", 10);
+    Localizer() : Node("vision_node"), buffer_(this->get_clock()), listener_(buffer_)
+    {
+        ar_sub_ = this->create_subscription<geometry_msgs::msg::PoseArray>(
+            "/aruco_poses",
+            rclcpp::QoS(1),
+            std::bind(&Localizer::visionCallback, this, std::placeholders::_1));
 
-    // Setup the transform listener
-    tf_buffer_ = std::make_shared<tf2_ros::Buffer>(this->get_clock());
-    tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
+        server_ = this->create_service<hello_moveit_ur::srv::LocalizePart>(
+            "localize_part",
+            std::bind(&Localizer::localizePart, this, std::placeholders::_1, std::placeholders::_2));
+    }
 
-    // Subscribe to the camera pose topic
-    subscription_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
-      "/aruco_poses", 10, [this](const geometry_msgs::msg::PoseStamped::SharedPtr msg) {
-        // Transform object pose from camera to world coordinates
-        geometry_msgs::msg::TransformStamped cam_to_world;
-
-                  // Lookup the transform from camera frame to world frame
-          //harcoded values
-
-          cam_to_world.header.frame_id = "Camera_to_world";
-          cam_to_world.child_frame_id = "object_pose";
-          cam_to_world.transform.translation.x = 0.2689;
-          cam_to_world.transform.translation.y = -0.197;
-          cam_to_world.transform.translation.z = 0.082;
-          cam_to_world.transform.rotation.x = 0.6519802;
-          cam_to_world.transform.rotation.y  = -0.2210103;
-          cam_to_world.transform.rotation.z  = -0.2996899;
-          cam_to_world.transform.rotation.w  = 0.6605015;
-
-        geometry_msgs::msg::PoseStamped object_pose;
-        try {
-
-
-          geometry_msgs::msg::TransformStamped transformStamped = tf_buffer_->lookupTransform(
-            "world_frame", msg->header.frame_id, msg->header.stamp, tf2::durationFromSec(1.0));
-          
-          // Perform the transformation
-          //tf2::doTransform(*msg, object_pose, transformStamped);
-          tf2::doTransform(*msg, object_pose, cam_to_world);
-
-
-          tf2::doTransform(*msg, cam_to_world, transformStamped);
-          object_pose.header.frame_id = "world_frame";
-          
-          // Publish the transformed object pose
-          publisher_->publish(object_pose);
-        } catch (const tf2::TransformException &ex) {
-          RCLCPP_ERROR(this->get_logger(), "Transform lookup failed: %s", ex.what());
+    void visionCallback(geometry_msgs::msg::PoseArray::SharedPtr msg)
+    {
+        if (msg->poses.empty())
+        {
+            RCLCPP_WARN(this->get_logger(), "Received an empty PoseArray.");
+            return;
         }
-      });
-  }
+
+        // Access the last received pose from the PoseArray
+        const geometry_msgs::msg::Pose& last_pose = msg->poses.back();
+
+        // Access pose information (e.g., position and orientation)
+        double x = last_pose.position.x;
+        double y = last_pose.position.y;
+        double z = last_pose.position.z;
+
+        double qx = last_pose.orientation.x;
+        double qy = last_pose.orientation.y;
+        double qz = last_pose.orientation.z;
+        double qw = last_pose.orientation.w;
+
+        // Do something with the pose information
+        // ...
+
+        // Print the received pose
+        RCLCPP_INFO(this->get_logger(), "Received pose from Cam: (%f, %f, %f), (%f, %f, %f, %f)",
+                    x, y, z, qx, qy, qz, qw);
+
+        // Store the last received pose for use in localizePart (not recommended, just for demonstration)
+        last_received_pose_ = last_pose;
+    }
+
+    void localizePart(hello_moveit_ur::srv::LocalizePart::Request::SharedPtr req,
+                      hello_moveit_ur::srv::LocalizePart::Response::SharedPtr res)
+    {
+        if (last_received_pose_.position.x == 0.0 && last_received_pose_.position.y == 0.0 && last_received_pose_.position.z == 0.0)
+        {
+            RCLCPP_ERROR(this->get_logger(), "No data received.");
+            res->success = false;
+            return;
+        }
+
+        try
+        {
+            // Define the target pose from the camera
+            geometry_msgs::msg::PoseStamped target_pose_from_cam;
+            target_pose_from_cam.header.frame_id = "camera_color_optical_frame"; // Replace with the actual frame ID of the camera
+            target_pose_from_cam.pose = last_received_pose_;
+
+            // Transform the target pose to the requested frame
+            geometry_msgs::msg::PoseStamped target_pose_from_req;
+            buffer_.transform(target_pose_from_cam, target_pose_from_req, req->base_frame);
+
+            // Set the transformed pose in the response
+            res->pose = target_pose_from_req.pose;
+            res->success = true;
+        }
+        catch (const tf2::TransformException& ex)
+        {
+            RCLCPP_ERROR(this->get_logger(), "Transform failed: %s", ex.what());
+            res->success = false;
+        }
+    }
 
 private:
-  rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr publisher_;
-  rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr subscription_;
-  std::shared_ptr<tf2_ros::Buffer> tf_buffer_;
-  std::shared_ptr<tf2_ros::TransformListener> tf_listener_;
+    rclcpp::Subscription<geometry_msgs::msg::PoseArray>::SharedPtr ar_sub_;
+    rclcpp::Service<hello_moveit_ur::srv::LocalizePart>::SharedPtr server_;
+    geometry_msgs::msg::Pose last_received_pose_;
+    tf2_ros::Buffer buffer_;
+    tf2_ros::TransformListener listener_;
 };
 
-int main(int argc, char** argv)
+int main(int argc, char* argv[])
 {
-  rclcpp::init(argc, argv);
-  auto node = std::make_shared<ObjectLocalizer>();
-  rclcpp::spin(node);
-  rclcpp::shutdown();
+    // This must be called before anything else ROS-related
+    rclcpp::init(argc, argv);
 
-  return 0;
+    // The Localizer class provides this node's ROS interfaces
+    auto node = std::make_shared<Localizer>();
+    RCLCPP_INFO(node->get_logger(), "Vision node starting");
+
+    // Don't exit the program.
+    rclcpp::spin(node);
 }
