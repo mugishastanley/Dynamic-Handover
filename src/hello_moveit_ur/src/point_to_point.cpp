@@ -74,7 +74,7 @@ private:
     homepose.orientation.y =0.685;
     homepose.orientation.z =-0.657;
     homepose.orientation.w =-0.211;    
-    target_poses.push_back(homepose);
+    //target_poses.push_back(homepose);
     moveRobotArmThroughPoses(node,target_poses);  
 
   }
