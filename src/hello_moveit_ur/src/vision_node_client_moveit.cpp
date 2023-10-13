@@ -63,7 +63,7 @@ public:
 class Robot_motion :public rclcpp::Node
 {
   public:
-    Robot_motion(float sleep_time):Node("move_robot")
+    Robot_motion():Node("move_robot")
     { 
           subscription3_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
            "/topic", 10 , std::bind(&Robot_motion::poseArrayCallback3, this, _1));
